@@ -23,7 +23,7 @@ body {
 /*Цвет текста #757575*/
 /*Акцент #2196F3;*/
 
-.list {
+ul {
     padding: 0px;
     margin: 0px;
     list-style: none;
@@ -204,7 +204,7 @@ body {
 /*.work-list .link {
     display: inline-block;
 }*/
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -388,11 +388,6 @@ body {
     border-left:  1px solid #EEEEEE;
 }
 
-
-.portfolio-button {
-    margin-bottom: 50px;  
-}
-
 .portfolio .button {
     padding: 6px 22px;
 
@@ -417,6 +412,7 @@ body {
 .portfolio-button {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;  
 }
 
 /*Footer*/
